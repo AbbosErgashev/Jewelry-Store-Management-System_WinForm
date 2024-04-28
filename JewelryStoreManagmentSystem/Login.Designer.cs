@@ -48,7 +48,6 @@
             label2.Size = new Size(91, 25);
             label2.TabIndex = 4;
             label2.Text = "Username";
-            //label2.Click += this.label2_Click;
             // 
             // pictureBox1
             // 
@@ -59,7 +58,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
-            //pictureBox1.Click += this.pictureBox1_Click;
             // 
             // label3
             // 
@@ -69,7 +67,6 @@
             label3.Size = new Size(87, 25);
             label3.TabIndex = 5;
             label3.Text = "Password";
-            //label3.Click += this.label3_Click;
             // 
             // ContinueLbl
             // 
@@ -88,15 +85,14 @@
             UsernameTbl.Name = "UsernameTbl";
             UsernameTbl.Size = new Size(354, 31);
             UsernameTbl.TabIndex = 7;
-            //UsernameTbl.TextChanged += this.UsernameTbl_TextChanged;
             // 
             // PasswordTbl
             // 
             PasswordTbl.Location = new Point(253, 284);
             PasswordTbl.Name = "PasswordTbl";
+            PasswordTbl.PasswordChar = '*';
             PasswordTbl.Size = new Size(354, 31);
             PasswordTbl.TabIndex = 8;
-            //PasswordTbl.TextChanged += this.PasswordTbl_TextChanged;
             // 
             // LoginBtn
             // 
