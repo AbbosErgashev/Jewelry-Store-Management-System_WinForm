@@ -35,7 +35,6 @@
             PercentageLbl = new Label();
             ProgressBar = new ProgressBar();
             timer1 = new System.Windows.Forms.Timer(components);
-            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -92,22 +91,12 @@
             // 
             timer1.Tick += timer1_Tick;
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(543, 336);
-            label3.Name = "label3";
-            label3.Size = new Size(166, 25);
-            label3.TabIndex = 5;
-            label3.Text = "Dildora Qurbonova";
-            // 
             // Splash
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(722, 418);
-            Controls.Add(label3);
             Controls.Add(ProgressBar);
             Controls.Add(PercentageLbl);
             Controls.Add(label2);
@@ -132,6 +121,5 @@
         private Label PercentageLbl;
         private ProgressBar ProgressBar;
         private System.Windows.Forms.Timer timer1;
-        private Label label3;
     }
 }
